@@ -980,28 +980,17 @@ img {
     max-width: 496px;
     margin-bottom: 36px;
   }
-/* 
+
 .about-list {
   display: flex;
+  justify-content: center;
+  gap: 24px;
+  row-gap: 72px;
+}
 
-} */
-
-  .about-item-first {
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: center;
-    gap: 24px;
-  }
-
-  .about-item-second {
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 0;
-    gap: 24px;
-  }
+.about-item {
+  width: calc((100% - 24px) / 2);
+}
 
   .about-title {
     text-align: left;
@@ -1020,28 +1009,16 @@ img {
 
     .team-list {
       display: flex;
-      align-items: center;
+      /* align-items: center; */
       justify-content: center;
-      gap: 64px;
+      gap: 24px;
+      row-gap: 64px;
     }
 
-.team-first {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 24px;
-}
-
-.team-second {
-  display: flex;
-  align-items: center;
-    justify-content: center;
-    gap: 24px;
-    margin-bottom: 0;
-}
   .team-item {
     width: calc((100% - 24px) / 2);
     margin-bottom: 0;
+    width: 264px;
   }
 
   .section-portfolio {
